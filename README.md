@@ -2,7 +2,9 @@
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple)
-![EF Core](https://img.shields.io/badge/EF_Core-9.0-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Este projeto é uma **refatoração e modernização** do módulo de análise de treliças do software educacional **MDSolids**. Reesculpido em **C#** utilizando **Windows Forms** para a interface e **.NET 8** para o backend, o software serve como uma ferramenta interativa para estudantes e engenheiros.
 
 O aplicativo permite desenhar estruturas, aplicar cargas e suportes, e calcular automaticamente os esforços internos (tração/compressão) e reações de apoio através do Método da Rigidez Direta.
 
@@ -29,19 +31,17 @@ O aplicativo permite desenhar estruturas, aplicar cargas e suportes, e calcular 
 * **Linguagem**: C# (.NET 8.0)
 * **Frontend**: Windows Forms (GDI+ para renderização).
 * **Banco de Dados**: Microsoft SQL Server.
-* **ORM**: Entity Framework Core 9.0.0
-* **Matemática**: [MathNet.Numerics](https://numerics.mathdotnet.com/) (v5.0.0) para álgebra linear.
+* **ORM**: Entity Framework Core.
+* **Matemática**: [MathNet.Numerics](https://numerics.mathdotnet.com/) para álgebra linear.
 
 ## 📂 Estrutura do Repositório
 
-```
+```text
 📁 Trusses
 ├── 📂 Trusses.App       # Interface Gráfica (Windows Forms)
 ├── 📂 Trusses.Core      # Regras de Negócio, Modelos e Solver
 ├── 📄 Cria tabelas trusses.sql  # Script para criação do Banco de Dados
 └── 📄 Trusses.sln       # Solução do Visual Studio
-```
-
 ⚙️ Configuração e Execução
 1. Pré-requisitos
 Visual Studio 2022 com carga de trabalho para Desktop .NET.
@@ -61,19 +61,15 @@ Execute o script para criar o banco Trusses e todas as tabelas necessárias (Nod
 
 Opção B (Automática): O Entity Framework Core está configurado para tentar criar o banco automaticamente na inicialização (db.Database.EnsureCreated()), caso ele não exista e as permissões do usuário permitam.
 
-3. Ajustar a String de Conexão (Importante)
-O código atual vem com uma senha padrão (123456) configurada. Você deve alterar isso para corresponder ao seu ambiente local.
-
-Abra o arquivo Trusses.Core/Data/AppDbContext.cs e localize o método OnConfiguring:
+3. Ajustar a String de Conexão
+Abra o arquivo Trusses.Core/Data/AppDbContext.cs e verifique se as credenciais correspondem ao seu ambiente:
 
 C#
 
-protected override void OnConfiguring(DbContextOptionsBuilder options)
-{
-    // ⚠️ Configure sua string de conexão aqui.
-    // Exemplo atual no código (altere User Id e Password conforme necessário):
-    options.UseSqlServer("Server=LOCALHOST;Database=Trusses;User Id=sa;Password=123456;TrustServerCertificate=True;");
-}
+// Exemplo no arquivo:
+options.UseSqlServer("Server=LOCALHOST;Database=Trusses;User Id=sa;Password=sua_senha;TrustServerCertificate=True;");
+Edite o campo Password e User Id conforme sua instalação local.
+
 4. Compilar e Rodar
 Clone o repositório:
 
@@ -82,7 +78,7 @@ Bash
 git clone [https://github.com/dioguit0s/trusses.git](https://github.com/dioguit0s/trusses.git)
 Abra o arquivo Trusses.sln no Visual Studio.
 
-Defina o projeto Trusses.App como Startup Project (clique com o botão direito no projeto -> Set as Startup Project).
+Defina o projeto Trusses.App como Startup Project.
 
 Pressione F5 para iniciar.
 
