@@ -4,8 +4,6 @@
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Este projeto é uma **refatoração e modernização** do módulo de análise de treliças do software educacional **MDSolids**. Reesculpido em **C#** utilizando **Windows Forms** para a interface e **.NET 8** para o backend, o software serve como uma ferramenta interativa para estudantes e engenheiros.
-
 O aplicativo permite desenhar estruturas, aplicar cargas e suportes, e calcular automaticamente os esforços internos (tração/compressão) e reações de apoio através do Método da Rigidez Direta.
 
 ## 🚀 Funcionalidades
