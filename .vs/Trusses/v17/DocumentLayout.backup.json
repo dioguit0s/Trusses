@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Facul\\Trusses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|a:\\facul\\trusses\\trusses.core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|solutionrelative:trusses.core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338A3700-E074-40F6-986B-B46E668242FD}|Trusses.App\\Trusses.App.csproj|a:\\facul\\trusses\\trusses.app\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338A3700-E074-40F6-986B-B46E668242FD}|Trusses.App\\Trusses.App.csproj|solutionrelative:trusses.app\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|a:\\facul\\trusses\\trusses.core\\logic\\trusssolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|solutionrelative:trusses.core\\logic\\trusssolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|a:\\facul\\trusses\\trusses.core\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8DE8B0-91FF-436C-BBB6-F8498CAC8BB5}|Trusses.Core\\Trusses.Core.csproj|solutionrelative:trusses.core\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338A3700-E074-40F6-986B-B46E668242FD}|Trusses.App\\Trusses.App.csproj|a:\\facul\\trusses\\trusses.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338A3700-E074-40F6-986B-B46E668242FD}|Trusses.App\\Trusses.App.csproj|solutionrelative:trusses.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "A:\\Facul\\Trusses\\Trusses.Core\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Trusses.Core\\Data\\AppDbContext.cs",
+              "ToolTip": "A:\\Facul\\Trusses\\Trusses.Core\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Trusses.Core\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:17:49.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.cs",
+              "DocumentMoniker": "A:\\Facul\\Trusses\\Trusses.Core\\Models\\Node.cs",
+              "RelativeDocumentMoniker": "Trusses.Core\\Models\\Node.cs",
+              "ToolTip": "A:\\Facul\\Trusses\\Trusses.Core\\Models\\Node.cs",
+              "RelativeToolTip": "Trusses.Core\\Models\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T23:12:42.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrussSolver.cs",
+              "DocumentMoniker": "A:\\Facul\\Trusses\\Trusses.Core\\Logic\\TrussSolver.cs",
+              "RelativeDocumentMoniker": "Trusses.Core\\Logic\\TrussSolver.cs",
+              "ToolTip": "A:\\Facul\\Trusses\\Trusses.Core\\Logic\\TrussSolver.cs",
+              "RelativeToolTip": "Trusses.Core\\Logic\\TrussSolver.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T23:06:44.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Facul\\Trusses\\Trusses.App\\Program.cs",
+              "RelativeDocumentMoniker": "Trusses.App\\Program.cs",
+              "ToolTip": "A:\\Facul\\Trusses\\Trusses.App\\Program.cs",
+              "RelativeToolTip": "Trusses.App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:36:16.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "A:\\Facul\\Trusses\\Trusses.App\\MainForm.cs",
+              "RelativeDocumentMoniker": "Trusses.App\\MainForm.cs",
+              "ToolTip": "A:\\Facul\\Trusses\\Trusses.App\\MainForm.cs",
+              "RelativeToolTip": "Trusses.App\\MainForm.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAYwPYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:24:05.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
