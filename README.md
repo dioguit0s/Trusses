@@ -2,7 +2,6 @@
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 O aplicativo permite desenhar estruturas, aplicar cargas e suportes, e calcular automaticamente os esforços internos (tração/compressão) e reações de apoio através do Método da Rigidez Direta.
 
