@@ -42,6 +42,8 @@ O aplicativo permite desenhar estruturas, aplicar cargas e suportes, e calcular 
 ├── 📂 Trusses.Core      # Regras de Negócio, Modelos e Solver
 ├── 📄 Cria tabelas trusses.sql  # Script para criação do Banco de Dados
 └── 📄 Trusses.sln       # Solução do Visual Studio
+```
+
 ⚙️ Configuração e Execução
 1. Pré-requisitos
 Visual Studio 2022 com carga de trabalho para Desktop .NET.
@@ -64,18 +66,19 @@ Opção B (Automática): O Entity Framework Core está configurado para tentar c
 3. Ajustar a String de Conexão
 Abra o arquivo Trusses.Core/Data/AppDbContext.cs e verifique se as credenciais correspondem ao seu ambiente:
 
-C#
+```C#
 
 // Exemplo no arquivo:
 options.UseSqlServer("Server=LOCALHOST;Database=Trusses;User Id=sa;Password=sua_senha;TrustServerCertificate=True;");
 Edite o campo Password e User Id conforme sua instalação local.
-
+```
 4. Compilar e Rodar
 Clone o repositório:
 
-Bash
-
+```Bash
 git clone [https://github.com/dioguit0s/trusses.git](https://github.com/dioguit0s/trusses.git)
+```
+
 Abra o arquivo Trusses.sln no Visual Studio.
 
 Defina o projeto Trusses.App como Startup Project.
